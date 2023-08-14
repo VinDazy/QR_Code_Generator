@@ -1,7 +1,7 @@
 import streamlit as st
 from functions import generate_qr, hex_to_rgb
 import time 
-st.set_page_config(page_title="QR Code Generator",layout="wide", page_icon="🔳")
+st.set_page_config(page_title="QR Code Generator",layout="wide", page_icon="💾")
 
 st.title("QR Generator Web app")
 ##MainMenu {visibility: hidden;} : ADD this to hide_menu_style to hide the hamburger menu
