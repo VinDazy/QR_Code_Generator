@@ -83,6 +83,7 @@ with output_column:
                 )
 
                 if download_button:
-                    st.session_state.submit_state = True  # Update submit state
+                    st.session_state.submit_state = True
+
 
 
